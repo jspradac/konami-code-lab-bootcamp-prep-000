@@ -1,4 +1,4 @@
-const codes = [
+const codess = [
   "ArrowUp",
   "ArrowUp",
   "ArrowDown",
