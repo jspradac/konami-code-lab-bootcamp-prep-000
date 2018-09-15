@@ -10,23 +10,6 @@ const codess = [
   "b",
   "a"
 ];
-let index = 0
 function init() {
   // your code here
-    document.body.addEventListener('keydown', onKeyDownHandler);
-  function onKeyDownHandler(e) {
-    const keys = e.key;
- 
-    if (keys === codess[index]) {
-      index++;
- 
-      if (index === codess.length) {
-        alert("Hurray!");
- 
-        index = 0;
-      }
-    } else {
-      index = 0;
-    }
-  }
 }
